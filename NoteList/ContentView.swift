@@ -28,7 +28,7 @@ struct ContentView : View {
                         
                         Group{
                             TextField($firstName, placeholder:Text("FirstName"))
-                            }.padding(10).background(Color.white).clipShape(RoundedRectangle(cornerRadius: 5))
+                            }.padding(5).background(Color.white).clipShape(RoundedRectangle(cornerRadius: 5))
                         HStack{
 
                         // add user in list
